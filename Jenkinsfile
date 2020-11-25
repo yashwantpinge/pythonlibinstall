@@ -8,12 +8,11 @@ pipeline {
     environment {
         docker_name = "pythoninstaller"
         github_id = '74237803'
-        build_results = "https://boss.corp.hpicloud.net/job/BPSValidation/job/BPSV%20Test%20Cases/job/test-case/job/dev/"
 
     }
 
     stages {
-        stage('CloneTool') {lok
+        stage('CloneTool') {
             steps {
                 withCredentials([
                     usernamePassword(
