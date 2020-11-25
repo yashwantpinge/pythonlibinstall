@@ -7,7 +7,7 @@ pipeline {
     } 
     environment {
         docker_name = "pythoninstaller"
-        github_id = '74237803'
+        github_id = '89803cb0-c219-4fac-82b6-98fe1236d6ca'
 
     }
 
@@ -17,8 +17,8 @@ pipeline {
                 withCredentials([
                     usernamePassword(
                         credentialsId: github_id,
-                        usernameVariable: 'yashwantpinge',
-                        passwordVariable: 'vcosmos123',
+                        usernameVariable: 'github_user',
+                        passwordVariable: 'github_password',
                     ),
                 ]){
                     echo "CloneTool"
