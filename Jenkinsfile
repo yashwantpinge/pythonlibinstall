@@ -17,7 +17,7 @@ pipeline {
                 withCredentials([
                     usernamePassword(
                         credentialsId: github_id,
-                        usernameVariable: 'sftautomation',
+                        usernameVariable: 'yashwantpinge',
                         passwordVariable: 'vcosmos123',
                     ),
                 ]){
