@@ -27,8 +27,8 @@ pipeline {
         }
         stage('Build') {
             steps {
-                sh "docker build --target=base --network=host -t ${env.docker_name}:base ."
-                sh "mkdir ${WORKSPACE}/output"
+                bat "docker build --target=base --network=host -t ${env.docker_name}:base ."
+                bat "mkdir ${WORKSPACE}/output"
             }
         }
         stage('Packing') {
