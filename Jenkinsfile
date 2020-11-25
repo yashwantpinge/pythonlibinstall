@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'rndit'
+        label 'master'
     }
     options {
         disableConcurrentBuilds()
