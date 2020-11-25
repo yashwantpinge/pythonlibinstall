@@ -17,8 +17,8 @@ pipeline {
                 withCredentials([
                     usernamePassword(
                         credentialsId: github_id,
-                        usernameVariable: 'github_user',
-                        passwordVariable: 'github_pass',
+                        usernameVariable: 'sftautomation',
+                        passwordVariable: 'vcosmos123',
                     ),
                 ]){
                     echo "CloneTool"
