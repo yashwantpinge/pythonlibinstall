@@ -20,7 +20,9 @@ pipeline {
                         usernameVariable: 'github_user',
                         passwordVariable: 'github_pass',
                     ),
-                ])
+                ]){
+                    echo "CloneTool"
+                }
             }
         }
         stage('Build') {
