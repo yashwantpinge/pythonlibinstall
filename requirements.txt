@@ -6,6 +6,7 @@ pandas
 plumbum
 psutil
 py7zr
+pywin32-300
 pyautogui
 pywinauto
 selenium
