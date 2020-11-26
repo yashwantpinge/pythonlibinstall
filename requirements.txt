@@ -25,6 +25,5 @@ robotframework
 robotframework-selenium2library
 robotframework-seleniumlibrary
 robotframework-screencaplibrary
-bios_auditor
 requests
 bs4
