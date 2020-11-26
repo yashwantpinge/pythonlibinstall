@@ -25,7 +25,6 @@ robotframework
 robotframework-selenium2library
 robotframework-seleniumlibrary
 robotframework-screencaplibrary
-py-cpuinfo
 vcosmos
 bios_auditor
 requests
