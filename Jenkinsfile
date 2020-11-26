@@ -33,7 +33,7 @@ pipeline {
         }
         stage('Packing') {
             when {
-                branch 'dev'
+                branch 'main'
             }
             steps {
                 catchError(buildResult: 'FAILURE', stageResult: 'FAILURE') {
@@ -52,7 +52,7 @@ pipeline {
         }
         stage('Deploy') {
             when {
-                branch 'dev'
+                branch 'main'
             }
             steps {
                 sh """
