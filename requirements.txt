@@ -4,9 +4,8 @@ lxml
 packaging
 pandas
 plumbum
-psutil
+psutilss
 py7zr
-pywin32-300
 pyautogui
 pywinauto
 selenium
