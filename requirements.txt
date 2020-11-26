@@ -15,7 +15,6 @@ winapps
 xlrd
 xmltodict
 cryptography
-firmware-variables
 pycryptodome
 pyopenssl
 pyyaml
