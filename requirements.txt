@@ -12,7 +12,6 @@ texttable
 uiautomation
 urllib3
 winapps
-wmi
 xlrd
 xmltodict
 cryptography
