@@ -7,8 +7,6 @@ plumbum
 psutil
 py7zr
 pyautogui
-pywin32==300
-pywinauto
 selenium
 texttable
 uiautomation
