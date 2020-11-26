@@ -18,7 +18,6 @@ xlrd
 xmltodict
 cryptography
 firmware-variables
-hp_mpm>=0.3.0.5275
 hp_uefi_test_util>=0.2.0.5028
 hp_wmi>=0.3.0.5026
 pycryptodome
