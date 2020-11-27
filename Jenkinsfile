@@ -33,7 +33,7 @@ pipeline {
         }
         stage('Packing') {
             when {
-                 env.gitlabBranch == 'main' 
+                 env.gitlabBranch 'main' 
             }
             steps {
                 catchError(buildResult: 'FAILURE', stageResult: 'FAILURE') {
