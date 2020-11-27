@@ -33,7 +33,7 @@ pipeline {
         }
         stage('Packing') {
             when {
-                 branch 'main' 
+                 expression {env.GIT_BRANCH == 'origin/main'}
             }
             steps {
                 catchError(buildResult: 'FAILURE', stageResult: 'FAILURE') {
